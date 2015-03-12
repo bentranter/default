@@ -223,10 +223,13 @@ blockquote p {
   font-style: italic;
 }
 
+.huge {
+  font-size: 3rem;
+}
+
 h1,
 .h1 {
-  font-size: 3rem;
-  font-weight: normal;
+  font-size: 2rem;
 }
 
 h2,
@@ -324,6 +327,10 @@ small,
 }
 
 /* Basscss Utility Typography */
+
+.light {
+  font-weight: 300;
+}
 
 .bold {
   font-weight: bold;
