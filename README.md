@@ -12,3 +12,4 @@ $ git clone https://github.com/bentranter/default.git
 $ subl ./
 ```
 
+I'll update the versions of BassCSS as they get released.
