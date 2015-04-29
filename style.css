@@ -270,7 +270,7 @@ h6, .h6 { font-size: .75rem }
 .py4 { padding-top: 4rem; padding-bottom: 4rem }
 .px4 { padding-left: 4rem; padding-right: 4rem }
 
-.absolute-center-wrapper { 
+.absolute-center-wrapper {
   display: table;
   height: 100vh;
 }
