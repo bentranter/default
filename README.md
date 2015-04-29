@@ -7,8 +7,8 @@ Defaults you can use with every project.
 This is what I do:
 
 ```bash
-$ mkdir newprojectname && cd newprojectname
-$ git clone https://github.com/bentranter/default.git
+$ git clone https://github.com/bentranter/default.git <projectname>
+$ cd <projectname>
 $ subl ./
 ```
 
