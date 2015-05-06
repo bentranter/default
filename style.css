@@ -123,13 +123,13 @@ th { vertical-align: bottom }
 td { vertical-align: top }
 
 body {
-  font-family: 'Avenir Next', Avenir, sans-serif;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-size: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Avenir Next', Avenir, sans-serif;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
   font-weight: bold;
   line-height: 1.25;
   margin-top: 1em;
@@ -600,3 +600,55 @@ tr:last-child td { border-bottom: 0 }
 
 .rounded { border-radius: 3px }
 .circle { border-radius: 50% }
+
+/*
+
+    Tooltips - I can't believe how complicated these are!!!
+
+*/
+
+.tooltip {
+  position: relative;
+}
+
+.tooltip:before {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-top: .25rem;
+  margin-left: -.5rem;
+  content: '';
+  height: 0;
+  width: 0;
+  border-left: .5rem solid transparent;
+  border-right: .5rem solid transparent;
+  border-bottom: .5rem solid rgba(0,0,0,.8);
+}
+
+.tooltip:after {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 50%;
+  transform: translateX(50%);
+  margin-top: .75rem;
+  content: attr(aria-label);
+  font-size: .75rem;
+  font-weight: normal;
+  -webkit-font-smoothing: subpixel-antialiased;
+  word-wrap: break-word; 
+  white-space: pre;
+  border-radius: 3px;
+  padding: .25rem .5rem;
+  background: rgba(0,0,0,.8);
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.27);
+  color: white;
+}
+
+.tooltip:hover:before,
+.tooltip:focus:before,
+.tooltip:hover:after,
+.tooltip:focus:after {
+  display: block;
+}
