@@ -1,8 +1,10 @@
-##Default
+![Default Project Logo](http://s4.postimg.org/6pot0ollp/default_logo.png "Default Project Logo")
+
+#Default
 
 Defaults you can use with every web project.
 
-####Usage
+###Usage
 
 ```bash
 $ git clone https://github.com/bentranter/default.git <projectname>
