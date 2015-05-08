@@ -663,6 +663,11 @@ tr:last-child td { border-bottom: 0 }
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.54);
 }
 
+.h-spin:hover {
+  transition: transform 0.8s cubic-bezier(0,0,0.58,1);
+  transform: rotate(360deg);
+}
+
 /*
 
     Active Utilities??? (This will also probably change)
