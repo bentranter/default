@@ -1,0 +1,30 @@
+{
+  "name": "default",
+  "version": "0.0.1",
+  "description": "A command line tool for faster front-end development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'No tests'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bentranter/default.git"
+  },
+  "keywords": [
+    "dflt"
+  ],
+  "author": "Ben Tranter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bentranter/default/issues"
+  },
+  "homepage": "https://github.com/bentranter/default",
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "commander": "^2.8.1",
+    "fs-extra": "^0.18.3"
+  },
+  "bin": {
+    "dflt": "dflt"
+  }
+}

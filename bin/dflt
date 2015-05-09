@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+var program    = require('commander');
+var newProject = require('../lib/index.js');
+
+program
+  .version('0.0.1')
+  .option('-n, --new', 'create a new project directory with the given name')
+  .parse(process.argv);
+
+if(!program.args.length) program.help();
+else newProject(program.args[0]);

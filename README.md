@@ -6,16 +6,25 @@ Defaults you can use with every web project.
 
 ###Usage
 
+Install with NPM as a global command:
+
 ```bash
-$ git clone https://github.com/bentranter/default.git <projectname>
-$ cd <projectname>
-$ subl ./
+$ npm install -g dflt
 ```
 
-Or use a bash function
+Create a new project with a given filename:
+
 ```bash
-$ default () { git clone https://github.com/bentranter/default.git "$1" && cd "$1"; }
-$ default New_Project
+$ dflt --new <projectname>
+# or
+$ dflt -n <projectname>
+```
+
+Other options:
+
+```bash
+$ dflt -v # output version number
+$ dflt -h # show help info
 ```
 
 ####About
