@@ -1,6 +1,6 @@
 {
   "name": "dflt",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "A command line tool for faster front-end development.",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,6 @@
     "fs-extra": "^0.18.3"
   },
   "bin": {
-    "dflt": "dflt"
+    "dflt": "bin/dflt"
   }
 }
