@@ -687,3 +687,17 @@ tr:last-child td { border-bottom: 0 }
 .f-no-outline-unsafe:focus {
   outline: none;
 }
+
+/*
+
+    Screen-reader only utilities
+
+*/
+
+.sr-only {
+  display: none;
+}
+
+.sr-only:focus {
+  display: block;
+}
